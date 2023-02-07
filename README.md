@@ -77,7 +77,7 @@ We consider use the LOCRM design as an illustration.
 
 - Suppose the upper limit of toxicity rate is 35%, the lower limit of efficacy rate is 20%. A maximum of 51 patients will be recruited in cohorts of 3. Suppose 5 dose levels of agent A and 3 dose levels of agent B are considered are considered. We can use the following code to simulate the scenario 1 in Table 3.
   
-  ```rscript
+```rscript
   p.true.tox <- matrix(c(0.05,0.15,0.30,0.45,0.55,  0.15,0.30,0.45,0.55,0.65,  0.30,0.45,0.55,0.65,0.75),nrow = 3, byrow = TRUE)
   p.true.eff <- matrix(c(0.05,0.25,0.50,0.55,0.60,  0.25,0.50,0.55,0.60,0.65,  0.50,0.55,0.60,0.65,0.70),nrow = 3, byrow = TRUE)
   locrm12(p.true.tox,p.true.eff,target.tox=0.35,cutoff.tox=0.85,target.eff=0.2,cutoff.eff=0.9,nmax=51,cohortsize=3,ntrial=1000)
@@ -122,8 +122,7 @@ We consider use the LOCRM design as an illustration.
   [1] 0
 ```
 
-```
-# Authors and Reference
-* Jingyi Zhang, Fangrong Yan, Nolan A. Wages, and Ruitao Lin
-* Zhang, J., Yan, F., Wages, N. A. and Lin, R. (2023) “Local Continual Reassessment Methods for Dose Finding and Optimization in Drug-Combination Trials”, Statistical Methods in Medical Research, in press.
-```
+  # Authors and Reference
+  * Jingyi Zhang, Fangrong Yan, Nolan A. Wages, and Ruitao Lin
+  * Zhang, J., Yan, F., Wages, N. A., and Lin, R. (2023) “Local Continual Reassessment Methods for Dose Finding and Optimization in Drug-Combination Trials”, Statistical Methods in Medical Research, revision submitted to journal.
+
