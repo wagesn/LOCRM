@@ -1,6 +1,6 @@
 # Local Continual Reassessment Methods
 
-R codes to implement local continual reassessment methods for dose finding and optimization in drug-combination trials.
+R code to implement local continual reassessment methods for dose finding and optimization in drug-combination trials.
 
 # Description
 
