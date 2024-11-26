@@ -123,5 +123,5 @@ $p.stop
 
   # Authors and Reference
   * Jingyi Zhang, Fangrong Yan, Nolan A. Wages, and Ruitao Lin
-  * Zhang, J., Yan, F., Wages, N. A., and Lin, R. (2023) “Local Continual Reassessment Methods for Dose Finding and Optimization in Drug-Combination Trials”, Statistical Methods in Medical Research, revision submitted to journal.
+  * Zhang, J., Yan, F., Wages, N. A., and Lin, R. Local Continual Reassessment Methods for Dose Finding and Optimization in Drug-Combination Trials. Statistical Methods in Medical Research 2023; 32(10):2049-2063. PMID: 37593951, PMCID: PMC10563380
 
